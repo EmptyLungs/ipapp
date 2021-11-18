@@ -499,11 +499,14 @@ python-versions = "*"
 
 [[package]]
 name = "docstring-parser"
-version = "0.8.1"
+version = "0.13"
 description = "\"Parse Python docstrings in reST, Google and Numpydoc format\""
 category = "main"
 optional = false
-python-versions = ">=3.5"
+python-versions = ">=3.6"
+
+[package.extras]
+test = ["pytest", "black"]
 
 [[package]]
 name = "docutils"
@@ -1567,7 +1570,7 @@ testing = ["black", "flake8", "mock", "mypy", "bandit", "isort", "safety", "pyli
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.7"
-content-hash = "12438a06b3c3dcb44da60ccd48296e91c7458c84bf7c95092af207f54c022c9e"
+content-hash = "ada4d3fcbb0f9a1379d1cddfe2395c2f86145f9f6150d8d5f85c4a4f85f4bb99"
 
 [metadata.files]
 aiobotocore = [
@@ -1891,7 +1894,7 @@ docopt = [
     {file = "docopt-0.6.2.tar.gz", hash = "sha256:49b3a825280bd66b3aa83585ef59c4a8c82f2c8a522dbe754a8bc8d08c85c491"},
 ]
 docstring-parser = [
-    {file = "docstring_parser-0.8.1.tar.gz", hash = "sha256:dd68bbe33446e9dbdec087fd18bad8f6dc8eedda4c5c2321208951f3acfc5e04"},
+    {file = "docstring_parser-0.13.tar.gz", hash = "sha256:66dd7eac7232202bf220fd98a5f11491863c01f958a75fdd535c7eccac9ced78"},
 ]
 docutils = [
     {file = "docutils-0.16-py2.py3-none-any.whl", hash = "sha256:0c5b78adfbf7762415433f5515cd5c9e762339e23369dbe8000d84a4bf4ab3af"},
